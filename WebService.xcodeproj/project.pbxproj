@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		9E5C6E0820CD22A900A32D66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5C6E0720CD22A900A32D66 /* AppDelegate.swift */; };
-		9E5C6E0A20CD22A900A32D66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5C6E0920CD22A900A32D66 /* ViewController.swift */; };
+		9E5C6E0A20CD22A900A32D66 /* TopQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5C6E0920CD22A900A32D66 /* TopQuestionViewController.swift */; };
 		9E5C6E0D20CD22A900A32D66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5C6E0B20CD22A900A32D66 /* Main.storyboard */; };
 		9E5C6E0F20CD22AB00A32D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5C6E0E20CD22AB00A32D66 /* Assets.xcassets */; };
 		9E5C6E1220CD22AB00A32D66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5C6E1020CD22AB00A32D66 /* LaunchScreen.storyboard */; };
+		9E5C6E1A20CD23BD00A32D66 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5C6E1920CD23BD00A32D66 /* Question.swift */; };
+		9E5C6E1C20CD23F200A32D66 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5C6E1B20CD23F200A32D66 /* User.swift */; };
+		9E5C6E1E20CD246400A32D66 /* ApiWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5C6E1D20CD246400A32D66 /* ApiWrapper.swift */; };
+		9E5C6E2020CD24C300A32D66 /* Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5C6E1F20CD24C300A32D66 /* Serialization.swift */; };
+		9E5C6E2220CD261C00A32D66 /* ApiResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5C6E2120CD261C00A32D66 /* ApiResource.swift */; };
+		9E5C6E2420CD283300A32D66 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5C6E2320CD283300A32D66 /* NetworkRequest.swift */; };
+		9E5C6E2620CD289F00A32D66 /* ImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5C6E2520CD289F00A32D66 /* ImageRequest.swift */; };
+		9E5C6E2820CD295C00A32D66 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5C6E2720CD295C00A32D66 /* ApiRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9E5C6E0420CD22A900A32D66 /* WebService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5C6E0720CD22A900A32D66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E5C6E0920CD22A900A32D66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E5C6E0920CD22A900A32D66 /* TopQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopQuestionViewController.swift; sourceTree = "<group>"; };
 		9E5C6E0C20CD22A900A32D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E5C6E0E20CD22AB00A32D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E5C6E1120CD22AB00A32D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E5C6E1320CD22AB00A32D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E5C6E1920CD23BD00A32D66 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		9E5C6E1B20CD23F200A32D66 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9E5C6E1D20CD246400A32D66 /* ApiWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiWrapper.swift; sourceTree = "<group>"; };
+		9E5C6E1F20CD24C300A32D66 /* Serialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serialization.swift; sourceTree = "<group>"; };
+		9E5C6E2120CD261C00A32D66 /* ApiResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResource.swift; sourceTree = "<group>"; };
+		9E5C6E2320CD283300A32D66 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		9E5C6E2520CD289F00A32D66 /* ImageRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRequest.swift; sourceTree = "<group>"; };
+		9E5C6E2720CD295C00A32D66 /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +71,19 @@
 			isa = PBXGroup;
 			children = (
 				9E5C6E0720CD22A900A32D66 /* AppDelegate.swift */,
-				9E5C6E0920CD22A900A32D66 /* ViewController.swift */,
+				9E5C6E0920CD22A900A32D66 /* TopQuestionViewController.swift */,
 				9E5C6E0B20CD22A900A32D66 /* Main.storyboard */,
 				9E5C6E0E20CD22AB00A32D66 /* Assets.xcassets */,
 				9E5C6E1020CD22AB00A32D66 /* LaunchScreen.storyboard */,
 				9E5C6E1320CD22AB00A32D66 /* Info.plist */,
+				9E5C6E1920CD23BD00A32D66 /* Question.swift */,
+				9E5C6E1B20CD23F200A32D66 /* User.swift */,
+				9E5C6E1D20CD246400A32D66 /* ApiWrapper.swift */,
+				9E5C6E1F20CD24C300A32D66 /* Serialization.swift */,
+				9E5C6E2120CD261C00A32D66 /* ApiResource.swift */,
+				9E5C6E2320CD283300A32D66 /* NetworkRequest.swift */,
+				9E5C6E2520CD289F00A32D66 /* ImageRequest.swift */,
+				9E5C6E2720CD295C00A32D66 /* ApiRequest.swift */,
 			);
 			path = WebService;
 			sourceTree = "<group>";
@@ -135,7 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E5C6E0A20CD22A900A32D66 /* ViewController.swift in Sources */,
+				9E5C6E2220CD261C00A32D66 /* ApiResource.swift in Sources */,
+				9E5C6E1C20CD23F200A32D66 /* User.swift in Sources */,
+				9E5C6E2420CD283300A32D66 /* NetworkRequest.swift in Sources */,
+				9E5C6E1E20CD246400A32D66 /* ApiWrapper.swift in Sources */,
+				9E5C6E1A20CD23BD00A32D66 /* Question.swift in Sources */,
+				9E5C6E0A20CD22A900A32D66 /* TopQuestionViewController.swift in Sources */,
+				9E5C6E2020CD24C300A32D66 /* Serialization.swift in Sources */,
+				9E5C6E2620CD289F00A32D66 /* ImageRequest.swift in Sources */,
+				9E5C6E2820CD295C00A32D66 /* ApiRequest.swift in Sources */,
 				9E5C6E0820CD22A900A32D66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
